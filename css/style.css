@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    height: 64px;
+}
+
+.header-container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px red solid;
+}
+
+li{
+    display: flex;
+    gap: 50px;
+}
+
+li a{
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
